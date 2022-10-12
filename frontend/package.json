@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "dev": "parcel ./src/index.html --hmr-port 1235",
+    "translations": "formatjs extract './src/{components,lib}/**/*.{ts,tsx}' --out-file temp.json --flatten --id-interpolation-pattern '[sha512:contenthash:base64:6]' && formatjs compile 'temp.json' --out-file locale/en-US.json && rm ./temp.json"
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^5.1.1",
+    "@types/node": "^18.8.3",
+    "@types/parcel-env": "^0.0.1",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@easymoney/currencies": "^1.0.2",
+    "@easymoney/formatter": "^1.1.0",
+    "@easymoney/money": "^1.0.2",
+    "@fontsource/roboto": "^4.5.8",
+    "@hookform/resolvers": "^2.9.8",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@xstate/react": "^3.0.1",
+    "axios": "^1.1.2",
+    "currency.js": "^2.0.4",
+    "date-fns": "^2.29.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.37.0",
+    "react-intl": "^6.1.2",
+    "react-nice-dates": "^3.1.0",
+    "react-query": "^3.39.2",
+    "react-router-dom": "^6.4.2",
+    "styled-components": "^5.3.6",
+    "xstate": "^4.33.6",
+    "zod": "^3.19.1"
+  },
+  "resolutions": {
+    "styled-components": "^5",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  }
+}

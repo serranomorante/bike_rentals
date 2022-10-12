@@ -1,0 +1,21 @@
+{
+  "app.category.ancientBike": "Bicicletas Antiguas",
+  "app.category.ebike": "Bicicletas Electricas",
+  "app.category.regularBike": "Bicicletas Regulares",
+  "app.home.actionableButton": "Ver",
+  "app.home.pageTitle": "Renta de Bicicletas",
+  "app.ride.goToCheckout": "Ir a la solicitud",
+  "checkout.form.dateRangeFieldLabel": "Rango de fechas",
+  "checkout.form.emailFieldLabel": "Correo",
+  "checkout.form.nameFieldLabel": "Nombre",
+  "checkout.form.phoneNumberFieldLabel": "Telefono",
+  "checkout.form.rentailApplication": "Formulario de Alquiler",
+  "checkout.summary.applyForRent": "Solicitar renta",
+  "checkout.summary.daysSuffix": "{dayCount,plural,one{día} other{días}}",
+  "checkout.summary.hoursSuffix": "{hourCount,plural,one{hora} other{horas}}",
+  "checkout.summary.summaryTitle": "Resumen",
+  "dialog.agreeOption": "Aceptar",
+  "dialog.continueQustion": "¿Desea continuar?",
+  "dialog.disagreeOption": "Cancelar",
+  "form.validation.fieldRequired": "Este campo es requerido"
+}

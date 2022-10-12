@@ -1,0 +1,11 @@
+ARG VARIANT=16-bullseye
+FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
+
+WORKDIR /workspace
+
+COPY .devcontainer/docker-entrypoint.sh /
+RUN sed -i 's/\r$//g' /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
+
+ENTRYPOINT [ "/docker-entrypoint.sh" ]
+CMD [ "sleep", "infinity" ]

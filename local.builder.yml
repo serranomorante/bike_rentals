@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  frontend: &frontend
+    build:
+      context: .
+      dockerfile: ./compose/local/frontend/Dockerfile
+    working_dir: /app/frontend
+    volumes:
+      - .:/app:z
+
+  install:
+    <<: *frontend
+    command: yarn install
+
+  build:
+    <<: *frontend
+    command: yarn run build
+
+  translations:
+    <<: *frontend
+    command: yarn run translations

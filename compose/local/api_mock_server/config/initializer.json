@@ -1,0 +1,736 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/rad-power-rad-power-radmission",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "rad-power-rad-power-radmission",
+          "title": "Rad Power Rad Power RadMission",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1665194326-radmission-grey-1665194265.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/aventon-aventon-level2",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "aventon-aventon-level2",
+          "title": "Aventon Aventon Level.2",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1661449204-level.2-clay-1.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/cannondale-cannondale-treadwell-neo-2-eq",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "cannondale-cannondale-treadwell-neo-2-eq",
+          "title": "Cannondale Cannondale Treadwell Neo 2 EQ",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1660333669-4a21ff78-f3f4-450c-8902-f07f343cd830-1660333656.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/vitus-nucleus-29-vr",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "vitus-nucleus-29-vr",
+          "title": "Vitus Nucleus 29 VR",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Vitus-Nucleus-29-VR-02-019ff29.jpg?quality=90&resize=619%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/marin-bobcat-trail-3",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "marin-bobcat-trail-3",
+          "title": "Marin Bobcat Trail 3",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Marin-Bobcat-Trail-3-01-4c33f8c.jpg?quality=90&resize=619%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/voodoo-aizan",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "voodoo-aizan",
+          "title": "Voodoo Aizan",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/aizan-1532014149385-1rabci3xsnmzj-6d2ba7e-e1564576866756.jpg?quality=90&resize=620%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/trek-supercaliber-99-xx1-axs",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "trek-supercaliber-99-xx1-axs",
+          "title": "Trek Supercaliber 9.9 XX1 AXS",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/ec061d90caac4ebca15edb713477744b.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/specialized-tarmac-sl7-pro",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "specialized-tarmac-sl7-pro",
+          "title": "Specialized Tarmac SL7 Pro",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/6f26cd386b484b2f91485ac517573a36.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/ventum-ns1-road-bike",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "ventum-ns1-road-bike",
+          "title": "Ventum NS1 Road Bike",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/fc97c802e3a94ed0968e0167a1cf85b3.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"],
+        "type": ["e-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "rad-power-rad-power-radmission",
+            "title": "Rad Power Rad Power RadMission",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1665194326-radmission-grey-1665194265.jpg"
+          },
+          {
+            "slug": "aventon-aventon-level2",
+            "title": "Aventon Aventon Level.2",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1661449204-level.2-clay-1.jpg"
+          },
+          {
+            "slug": "cannondale-cannondale-treadwell-neo-2-eq",
+            "title": "Cannondale Cannondale Treadwell Neo 2 EQ",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1660333669-4a21ff78-f3f4-450c-8902-f07f343cd830-1660333656.jpg"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"],
+        "type": ["regular-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "vitus-nucleus-29-vr",
+            "title": "Vitus Nucleus 29 VR",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Vitus-Nucleus-29-VR-02-019ff29.jpg?quality=90&resize=619%2C413"
+          },
+          {
+            "slug": "marin-bobcat-trail-3",
+            "title": "Marin Bobcat Trail 3",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Marin-Bobcat-Trail-3-01-4c33f8c.jpg?quality=90&resize=619%2C413"
+          },
+          {
+            "slug": "voodoo-aizan",
+            "title": "Voodoo Aizan",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/aizan-1532014149385-1rabci3xsnmzj-6d2ba7e-e1564576866756.jpg?quality=90&resize=620%2C413"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["en-US"],
+        "resourcetype": ["bike"],
+        "type": ["ancient-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "trek-supercaliber-99-xx1-axs",
+            "title": "Trek Supercaliber 9.9 XX1 AXS",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/ec061d90caac4ebca15edb713477744b.jpg"
+          },
+          {
+            "slug": "specialized-tarmac-sl7-pro",
+            "title": "Specialized Tarmac SL7 Pro",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/6f26cd386b484b2f91485ac517573a36.jpg"
+          },
+          {
+            "slug": "ventum-ns1-road-bike",
+            "title": "Ventum NS1 Road Bike",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/fc97c802e3a94ed0968e0167a1cf85b3.jpg"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/rad-power-rad-power-radmission",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "rad-power-rad-power-radmission",
+          "title": "Rad Power Rad Power RadMission",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1665194326-radmission-grey-1665194265.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/aventon-aventon-level2",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "aventon-aventon-level2",
+          "title": "Aventon Aventon Level.2",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1661449204-level.2-clay-1.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/cannondale-cannondale-treadwell-neo-2-eq",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "cannondale-cannondale-treadwell-neo-2-eq",
+          "title": "Cannondale Cannondale Treadwell Neo 2 EQ",
+          "basePrice": "10.00",
+          "type": "e-bike",
+          "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1660333669-4a21ff78-f3f4-450c-8902-f07f343cd830-1660333656.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/vitus-nucleus-29-vr",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "vitus-nucleus-29-vr",
+          "title": "Vitus Nucleus 29 VR",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Vitus-Nucleus-29-VR-02-019ff29.jpg?quality=90&resize=619%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/marin-bobcat-trail-3",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "marin-bobcat-trail-3",
+          "title": "Marin Bobcat Trail 3",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Marin-Bobcat-Trail-3-01-4c33f8c.jpg?quality=90&resize=619%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/voodoo-aizan",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "voodoo-aizan",
+          "title": "Voodoo Aizan",
+          "basePrice": "10.00",
+          "type": "regular-bike",
+          "media": "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/aizan-1532014149385-1rabci3xsnmzj-6d2ba7e-e1564576866756.jpg?quality=90&resize=620%2C413"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/trek-supercaliber-99-xx1-axs",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "trek-supercaliber-99-xx1-axs",
+          "title": "Trek Supercaliber 9.9 XX1 AXS",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/ec061d90caac4ebca15edb713477744b.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/specialized-tarmac-sl7-pro",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "specialized-tarmac-sl7-pro",
+          "title": "Specialized Tarmac SL7 Pro",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/6f26cd386b484b2f91485ac517573a36.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/ventum-ns1-road-bike",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "slug": "ventum-ns1-road-bike",
+          "title": "Ventum NS1 Road Bike",
+          "basePrice": "10.00",
+          "type": "ancient-bike",
+          "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/fc97c802e3a94ed0968e0167a1cf85b3.jpg"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"],
+        "type": ["e-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "rad-power-rad-power-radmission",
+            "title": "Rad Power Rad Power RadMission",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1665194326-radmission-grey-1665194265.jpg"
+          },
+          {
+            "slug": "aventon-aventon-level2",
+            "title": "Aventon Aventon Level.2",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1661449204-level.2-clay-1.jpg"
+          },
+          {
+            "slug": "cannondale-cannondale-treadwell-neo-2-eq",
+            "title": "Cannondale Cannondale Treadwell Neo 2 EQ",
+            "basePrice": "10.00",
+            "type": "e-bike",
+            "media": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1660333669-4a21ff78-f3f4-450c-8902-f07f343cd830-1660333656.jpg"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"],
+        "type": ["regular-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "vitus-nucleus-29-vr",
+            "title": "Vitus Nucleus 29 VR",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Vitus-Nucleus-29-VR-02-019ff29.jpg?quality=90&resize=619%2C413"
+          },
+          {
+            "slug": "marin-bobcat-trail-3",
+            "title": "Marin Bobcat Trail 3",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2020/01/Marin-Bobcat-Trail-3-01-4c33f8c.jpg?quality=90&resize=619%2C413"
+          },
+          {
+            "slug": "voodoo-aizan",
+            "title": "Voodoo Aizan",
+            "basePrice": "10.00",
+            "type": "regular-bike",
+            "media": "https://images.immediate.co.uk/production/volatile/sites/21/2019/03/aizan-1532014149385-1rabci3xsnmzj-6d2ba7e-e1564576866756.jpg?quality=90&resize=620%2C413"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides",
+      "queryStringParameters": {
+        "locale": ["es-ES"],
+        "resourcetype": ["bike"],
+        "type": ["ancient-bike"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "slug": "trek-supercaliber-99-xx1-axs",
+            "title": "Trek Supercaliber 9.9 XX1 AXS",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/ec061d90caac4ebca15edb713477744b.jpg"
+          },
+          {
+            "slug": "specialized-tarmac-sl7-pro",
+            "title": "Specialized Tarmac SL7 Pro",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/6f26cd386b484b2f91485ac517573a36.jpg"
+          },
+          {
+            "slug": "ventum-ns1-road-bike",
+            "title": "Ventum NS1 Road Bike",
+            "basePrice": "10.00",
+            "type": "ancient-bike",
+            "media": "https://img.livestrong.com/375/media-storage/contentlab-data/11/2/fc97c802e3a94ed0968e0167a1cf85b3.jpg"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/price-settings",
+      "queryStringParameters": {
+        "locale": ["en-US"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "freeOfChargeHoursByType": {
+            "e-bike": 0,
+            "regular-bike": 48,
+            "ancient-bike": 96
+          },
+          "baseBillingHours": 24,
+          "startHourThreshold": 360,
+          "incrementPriceBy": "2.00"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/price-settings",
+      "queryStringParameters": {
+        "locale": ["es-ES"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": {
+          "freeOfChargeHoursByType": {
+            "e-bike": 0,
+            "regular-bike": 48,
+            "ancient-bike": 96
+          },
+          "baseBillingHours": 24,
+          "startHourThreshold": 360,
+          "incrementPriceBy": "2.00"
+        }
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/types",
+      "queryStringParameters": {
+        "locale": ["en-US"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "id": "e-bike",
+            "title": "Electric Bike"
+          },
+          {
+            "id": "regular-bike",
+            "title": "Regular Bike"
+          },
+          {
+            "id": "ancient-bike",
+            "title": "Ancient Bike"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/v1/rides/types",
+      "queryStringParameters": {
+        "locale": ["es-ES"]
+      }
+    },
+    "httpResponse": {
+      "body": {
+        "type": "JSON",
+        "json": [
+          {
+            "id": "e-bike",
+            "title": "Bicicleta Eléctrica"
+          },
+          {
+            "id": "regular-bike",
+            "title": "Bicicleta Regular"
+          },
+          {
+            "id": "ancient-bike",
+            "title": "Bicicleta Antigua"
+          }
+        ]
+      }
+    }
+  }
+]

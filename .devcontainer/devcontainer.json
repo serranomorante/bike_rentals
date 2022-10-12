@@ -1,0 +1,40 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.241.1/containers/python-3
+{
+  "name": "My Bike Rentals",
+  "dockerComposeFile": "docker-compose.dev-container.yml",
+  "service": "app",
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  // Build network and volume requirements
+  "initializeCommand": ".devcontainer/docker-init.sh",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        // terminal customization
+        "workbench.colorCustomizations": {
+          // "terminal.background": "#000000",
+          // fixes issue with highlight not being visible
+          // https://stackoverflow.com/a/71104271
+          "terminal.selectionBackground": "#ffff00"
+        }
+      },
+
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "dsznajder.es7-react-js-snippets",
+        // style code
+        "esbenp.prettier-vscode",
+        // productivity
+        "dakara.dakara-foldplus",
+        "statelyai.stately-vscode"
+      ]
+    }
+  },
+
+  "forwardPorts": [],
+  "overrideCommand": false
+}

@@ -1,0 +1,21 @@
+{
+  "app.category.ancientBike": "Ancient Bike",
+  "app.category.ebike": "Electric Bike",
+  "app.category.regularBike": "Regular Bike",
+  "app.home.actionableButton": "More",
+  "app.home.pageTitle": "Bike Rentals",
+  "app.ride.goToCheckout": "Request rental",
+  "checkout.form.dateRangeFieldLabel": "Date Range",
+  "checkout.form.emailFieldLabel": "Email",
+  "checkout.form.nameFieldLabel": "Name",
+  "checkout.form.phoneNumberFieldLabel": "Phone Number",
+  "checkout.form.rentailApplication": "Rental Application",
+  "checkout.summary.applyForRent": "Apply for Rent",
+  "checkout.summary.daysSuffix": "{dayCount,plural,one{day} other{days}}",
+  "checkout.summary.hoursSuffix": "{hourCount,plural,one{hour} other{hours}}",
+  "checkout.summary.summaryTitle": "Summary",
+  "dialog.agreeOption": "Agree",
+  "dialog.continueQustion": "Continue?",
+  "dialog.disagreeOption": "Disagree",
+  "form.validation.fieldRequired": "This field is required"
+}

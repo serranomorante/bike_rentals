@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: my_bike_rentals_local_frontend
+    build:
+      context: .
+      dockerfile: ./compose/local/frontend/Dockerfile
+    working_dir: /app/frontend
+    environment:
+      BACKEND_API_URL: http://192.168.237.128:1080
+    networks:
+      - my_bike_rentals_local_network
+    volumes:
+      - .:/app:z
+    ports:
+      - 1234:1234
+      - 1235:1235
+    restart: always
+    command: /start-frontend
+
+  api_mock_server:
+    image: mockserver/mockserver:latest
+    container_name: my_bike_rentals_local_api_mock_server
+    environment:
+      MOCKSERVER_WATCH_INITIALIZATION_JSON: "true"
+      MOCKSERVER_PROPERTY_FILE: /config/mockserver.properties
+      MOCKSERVER_INITIALIZATION_JSON_PATH: /config/initializer.json
+      MOCKSERVER_SERVER_PORT: 1080
+      MOCKSERVER_ENABLE_CORS_FOR_API: "true"
+      MOCKSERVER_ENABLE_CORS_FOR_ALL_RESPONSES: "true"
+      MOCKSERVER_CORS_ALLOW_ORIGIN: "*"
+    ports:
+      - 1080:1080
+    volumes:
+      - ./compose/local/api_mock_server/config:/config
+
+
+networks:
+  my_bike_rentals_local_network:
+    external: true

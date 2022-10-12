@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile.dev
+      args:
+        - VARIANT=16-bullseye
+    container_name: my_bike_rentals_devcontainer # TODO <change this> for the name of your project
+    init: true
+    volumes:
+      # The complete source code of our project
+      - ..:/workspace:cached
+      # Persist vscode extensions between reboots
+      - my_bike_rentals_devcontainer_extensions:/root/.vscode-server/extensions # TODO <change this> for the name of your project
+      # Persist pre-commit environments between reboots
+      - my_bike_rentals_devcontainer_pre_commit:/root/.cache/pre-commit # TODO <change this> for the name of your project
+    networks:
+      - my_bike_rentals_local_network # TODO <change this>
+
+volumes:
+  my_bike_rentals_devcontainer_extensions: # TODO <change this>
+  my_bike_rentals_devcontainer_pre_commit: # TODO <change this>
+
+# This external network is shared with the main docker-compose.yml config
+# Ensures that services started from inside this dev container can all communicate
+networks:
+  my_bike_rentals_local_network: # TODO <change this>
+    external: true
