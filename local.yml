@@ -8,7 +8,7 @@ services:
       dockerfile: ./compose/local/frontend/Dockerfile
     working_dir: /app/frontend
     environment:
-      BACKEND_API_URL: http://192.168.237.128:1080
+      BACKEND_API_URL: http://localhost:1080
     networks:
       - my_bike_rentals_local_network
     volumes:
