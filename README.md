@@ -2,7 +2,7 @@
 
 # APP para rentar bicicletas
 
-[![N|Solid](https://i.postimg.cc/HLp8S5WC/msedge-20221012-132953-962.png)](https://i.postimg.cc/HLp8S5WC/msedge-20221012-132953-962.png)
+[![N|Solid](https://i.postimg.cc/d16ZCjzf/msedge-20221012-135024-192.jpg)](https://i.postimg.cc/d16ZCjzf/msedge-20221012-135024-192.jpg)
 
 ## Descripción
 
