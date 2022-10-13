@@ -1,33 +1,35 @@
-> Ejercicio de programación �‍�
-
 # APP para rentar bicicletas
 
 [![N|Solid](https://i.postimg.cc/d16ZCjzf/msedge-20221012-135024-192.jpg)](https://i.postimg.cc/d16ZCjzf/msedge-20221012-135024-192.jpg)
 
 ## Descripción
 
-Esta es una aplicación web para la solicitud de bicicletas en `modalidad renta` creada con Typescript + React en sus últimas versiones.
+Esta es una aplicación web para la renta de bicicletas. Fue creada con Typescript + React en sus últimas versiones.
+
+El aspecto visual no se tomó tan en cuenta durante el desarrollo como sí otros detalles más relacionados con el funcionamiento, arquitectura y diseño a nivel técnico de la solución.
+
+> 📃 En este link te contamos con más detalle el proceso que seguimos: [PROYECTO BIKE RENTALS](https://whimsical.com/bike-rentals-JXLF2VXuv8p4VG91qEZMqu)
 
 ## Características generales
 
 - Presenta el listado de bicicletas disponibles ⚡
+- Calcula el precio del alquiler ⚡
 - Presenta una vista detalle de la bicicleta seleccionada. ⚡
 - Permite generar una solicitud de renta de la bicicleta seleccionada ⚡
 
 ## Características del desarrollo
 
-- Utiliza docker para facilitar el desarrollo y despliegue en producción
-- Utiliza .devcontainer para un ambiente de desarrollo replicable en pocos segundos
-- Sigue los principios SOLID y utiliza el patrón de diseño factory
-- Creada desde el principio con i18n en 2 idiomas.
+- Utiliza docker y .devcontainer para facilitar un ambiente de desarrollo homogéneo
+- Sigue los principios SOLID y utiliza el patrón de diseño *Factory Method*
+- Creada desde el inicio con i18n en 2 idiomas
 - Utiliza Material UI + styled components para los estilos
 
 ## Pasos para iniciar la aplicación en su localhost
 
 La aplicación sólo requiere que [Docker](https://www.docker.com/) y [Docker Compose](https://docs.docker.com/compose/) estén instalados en su sistema.
-Adicional, los puertos 1234, 1235 y 1080 de su sistema deben estar disponibles (lo más probable es que lo estén).
+Adicional, los puertos `1234`, `1235` y `1080` de su sistema deben estar disponibles (lo más probable es que ya lo estén).
 
-Por favor asegúrese de seguir los pasos de instalación de dichas herramientas
+Por favor asegúrese de seguir los pasos de instalación de dichas herramientas en caso de que aún no las tenga instaladas.
 
 - [Instalar Docker](https://docs.docker.com/engine/install/)
 - [Instalar Docker Compose](https://docs.docker.com/compose/install/)
@@ -43,7 +45,7 @@ Estos comandos retornan las respectivas versiones de Docker y de Docker Compose.
 
 > ⚠ Si usted desea, puede ejecutar el siguiente comando para asegurarse que ningún contenedor docker esté en ejecución ya que podría interferir con el arranque de nuestro aplicativo.
 
-> ⚠ Tenga cuidado, este comando va a detener todos los contenedores ejecutándose en su equipo actualmente.
+> ⚠ Tenga cuidado, este comando va a detener todos los contenedores ejecutándose en su equipo actualmente. El siguiente comando es opcional.
 
 ```sh
 docker stop $(docker ps -q -a)
@@ -51,7 +53,9 @@ docker stop $(docker ps -q -a)
 
 Una vez instalados Docker y Docker Compose, procedemos con los pasos para iniciar nuestra aplicación.
 
-#### Importate, ejecutar los siguientes comandos con `Powershell (windows)`, `bash (linux)` o bien `zsh (mac)`
+> Estos comandos fueron probados con `Powershell (windows)`, `bash (linux)` y `zsh (mac)`
+
+## Paso 1
 
 Clonamos el actual repositorio e ingresamos a la carpeta del proyecto
 
@@ -59,6 +63,8 @@ Clonamos el actual repositorio e ingresamos a la carpeta del proyecto
 git clone https://github.com/serranomorante/bike_rentals
 cd bike_rentals
 ```
+
+## Paso 2
 
 Una vez dentro de la carpeta del proyecto, ejecutamos estos comandos uno por uno en el siguiente orden:
 
@@ -76,6 +82,8 @@ Y desde ahí podemos comenzar a navegar por el aplicativo.
 ## Decisiones en el desarrollo
 
 ### ¿Por qué utilizamos el Factory Pattern?
+
+> 📃 Recuerda que en el siguiente link te contamos con más detalle el proceso que seguimos: [PROYECTO BIKE RENTALS](https://whimsical.com/bike-rentals-JXLF2VXuv8p4VG91qEZMqu)
 
 Al utilizar `Factory Pattern` le estamos permitiendo a nuestra aplicación ser extensible en el tiempo ya que toda funcionalidad se desarrolla sobre una abstración en vez de desarrollar directamente sobre la implementación.
 
