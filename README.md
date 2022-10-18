@@ -8,7 +8,7 @@ Esta es una aplicación web para la renta de bicicletas. Fue creada con Typescri
 
 El aspecto visual no se tomó tan en cuenta durante el desarrollo como sí otros detalles más relacionados con el funcionamiento, arquitectura y diseño a nivel técnico de la solución.
 
-> 📃 En este link te contamos con más detalle el proceso que seguimos: [PROYECTO BIKE RENTALS](https://whimsical.com/bike-rentals-JXLF2VXuv8p4VG91qEZMqu)
+> 📃 En este link te contamos con más detalle el proceso que seguimos en el desarrollo: [PROYECTO BIKE RENTALS](https://whimsical.com/bike-rentals-JXLF2VXuv8p4VG91qEZMqu)
 
 ## Características generales
 
@@ -20,7 +20,7 @@ El aspecto visual no se tomó tan en cuenta durante el desarrollo como sí otros
 ## Características del desarrollo
 
 - Utiliza docker y .devcontainer para facilitar un ambiente de desarrollo homogéneo
-- Sigue los principios SOLID y utiliza el patrón de diseño *Factory Method*
+- Sigue los principios SOLID y utiliza el patrón de diseño _Factory Method_
 - Creada desde el inicio con i18n en 2 idiomas
 - Utiliza Material UI + styled components para los estilos
 
